@@ -14,10 +14,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EmojiJournalServer::EmojiJournalServer"
-               BuildableName = "EmojiJournalServer"
-               BlueprintName = "EmojiJournalServer"
-               ReferencedContainer = "container:EmojiJournalServer.xcodeproj">
+               BlueprintIdentifier = "ToDoServer::Application"
+               BuildableName = "Application.framework"
+               BlueprintName = "Application"
+               ReferencedContainer = "container:ToDoServer.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ToDoServer::ToDoServer"
+               BuildableName = "ToDoServer"
+               BlueprintName = "ToDoServer"
+               ReferencedContainer = "container:ToDoServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +46,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EmojiJournalServer::ApplicationTests"
+               BlueprintIdentifier = "ToDoServer::ApplicationTests"
                BuildableName = "ApplicationTests.xctest"
                BlueprintName = "ApplicationTests"
-               ReferencedContainer = "container:EmojiJournalServer.xcodeproj">
+               ReferencedContainer = "container:ToDoServer.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -50,23 +64,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EmojiJournalServer::EmojiJournalServer"
-            BuildableName = "EmojiJournalServer"
-            BlueprintName = "EmojiJournalServer"
-            ReferencedContainer = "container:EmojiJournalServer.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "PORT"
-            value = "8080"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

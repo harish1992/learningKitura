@@ -1,0 +1,4 @@
+module hcapiplugin {
+    umbrella "/Users/hariskumars/KituraSampleApps/samples/ToDoBackend/ToDoServer/.build/checkouts/omr-agentcore/src/hcapiplugin/include"
+    export *
+}
